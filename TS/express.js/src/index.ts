@@ -2,8 +2,6 @@ import express from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
 import indexRouter from './routes/index';
-import accountsRouter from './routes/accounts';
-import captchaRouter from './routes/captcha';
 import rateLimit from 'express-rate-limit';
 const port = 3000;
 const app = express();
