@@ -28,8 +28,6 @@ app.use(limiter);
 
 
 app.use('/', indexRouter);
-app.use('/accounts', accountsRouter);
-app.use('/captcha', captchaRouter);
 
 app.listen(port, () => {
 	console.log(`listening at http://localhost:${port}`);
