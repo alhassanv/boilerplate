@@ -1,0 +1,18 @@
+{
+  "name": "discord-typescript-boilerplate",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./prod/index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2"
+  }
+}
