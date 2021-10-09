@@ -10,8 +10,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 
-// const logger = require('morgan'); // Enabling dev mode
-// app.use(logger('dev')); // Enabling dev mode
+const logger = require('morgan'); // Enabling dev mode
+app.use(logger('dev')); // Enabling dev mode
 
 const limiter = rateLimit({
 	windowMs: 15 * 60 * 1000,
